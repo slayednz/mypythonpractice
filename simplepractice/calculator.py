@@ -1,9 +1,9 @@
 def main():
-    x=float(input("What's x? "))
-    y=float(input("What's y? "))
+    x= input("what's x? ")
+    print ("x squared is", square(x))
 
-    z = x/y
-    print(f"{z:,.2f}")
+def square(n):
+    return n*n
 
-
-main()
+if __name__ == "__main__":
+    main()
